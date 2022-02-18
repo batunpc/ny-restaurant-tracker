@@ -126,7 +126,6 @@ const Restaurants = () => {
               ))}
             </tbody>
           </Table>
-
           <Pagination size="lg" className="justify-content-center">
             <Pagination.Prev
               onClick={() => {

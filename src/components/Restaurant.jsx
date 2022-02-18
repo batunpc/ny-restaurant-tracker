@@ -93,7 +93,6 @@ const Restaurant = () => {
             style={{ height: "400px" }}
             center={[restaurant.address.coord[1], restaurant.address.coord[0]]}
             zoom={13}
-            scrollWheelZoom={false}
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker
